@@ -1,0 +1,28 @@
+{
+  "name": "cordova-plugin-google-signin",
+  "version": "1.0.0",
+  "description": "Google Sign-In for Cordova using modern SDKs (GoogleSignIn 7.x / play-services-auth 21.x)",
+  "main": "www/GoogleSignIn.js",
+  "license": "MIT",
+  "cordova": {
+    "id": "cordova-plugin-google-signin",
+    "platforms": ["ios", "android"]
+  },
+  "keywords": [
+    "cordova",
+    "google",
+    "signin",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "engines": {
+    "cordovaDependencies": {
+      "1.0.0": {
+        "cordova": ">=10.0.0",
+        "cordova-android": ">=10.0.0",
+        "cordova-ios": ">=6.0.0"
+      }
+    }
+  }
+}
