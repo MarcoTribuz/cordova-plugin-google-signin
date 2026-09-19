@@ -2,7 +2,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="cordova-plugin-google-signin"
-        version="1.0.0">
+        version="1.0.1">
 
   <name>Google Sign-In</name>
   <description>Google Sign-In for Cordova using modern SDKs (GoogleSignIn 7.x / play-services-auth 21.x)</description>
@@ -10,7 +10,6 @@
 
   <engines>
     <engine name="cordova" version=">=10.0.0"/>
-    <engine name="cordova-android" version=">=10.0.0"/>
     <engine name="cordova-ios" version=">=6.0.0"/>
   </engines>
 
@@ -61,7 +60,7 @@
   <!-- ─── Android ─────────────────────────────────────────────────────── -->
   <platform name="android">
 
-    <framework src="com.google.android.gms:play-services-auth:21.+" />
+    <framework src="com.google.android.gms:play-services-auth:21.3.0" />
 
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="GoogleSignIn">
